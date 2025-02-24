@@ -43,7 +43,7 @@ sudo ./pop --ram 8 --max-disk 500 --cache-dir /data --pubKey <KEY>
 ```
 sudo ./pop --ram 8 --max-disk 500 --cache-dir /data --pubKey <KEY> --enable-80-443
 ```
-
+**🔔 Important Note:** Replace your `ram`, `disk`, & `pubkey` with your actual information. Retrieve the public key from your Solana wallet (e.g., Phantom, Solflare, Backpack, etc.)
 ---
 
 ## 🌐 Open Another Window for WSL or VPS
