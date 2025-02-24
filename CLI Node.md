@@ -27,8 +27,8 @@ mkdir download_cache
 ./pop --signup-by-referral-route 332de39758d724e9
 ```
 
-```
 # Generate Your Referral
+```
 ./pop --gen-referral-route
 ```
 
