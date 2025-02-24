@@ -4,7 +4,7 @@
 
 1️⃣ Dependencies for WINDOWS & LINUX
 ```
-sudo apt update
+sudo apt update &&
 sudo apt upgrade -y
 ```
 
@@ -12,7 +12,8 @@ sudo apt upgrade -y
 ```
 curl -L -o pop "https://dl.pipecdn.app/v0.2.8/pop"
 ```
-```
+ after that
+ ```
 chmod +x pop
 ```
 
@@ -32,13 +33,18 @@ mkdir download_cache
 ```
 
 5️⃣ Start Node
-````
+```
 sudo ./pop --ram 8 --max-disk 500 --cache-dir /data --pubKey <KEY>
+```
+ #        OR   (Recommended Phantom Wallet or ANY Other SOL Wallet)
 
-         OR   (Recommended Phantom Wallet or ANY SOL Wallet)
-
+#       Use this commnd only if your 8003 PORT is disable or got any error while last cmmnd (Optional)
+```
 sudo ./pop --ram 8 --max-disk 500 --cache-dir /data --pubKey <KEY>--enable-80-443
-````
+```
+ #    Important Note: Replace your `ram` , `disk` & `pubkey` with your actual Information. Retrieve the public key from your Solana wallet (e.g., Phantom, solfare, and Backpack etc.)
+
+
 # Open Another Window for WSL or VPS
 
 ## Save the file
@@ -50,6 +56,7 @@ nano ~/node_info.json
 ```
 ./pop --status
 ```
+Monitor your Node Points
 ```
 ./pop --points
 ```
