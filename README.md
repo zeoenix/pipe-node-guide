@@ -56,7 +56,7 @@ sudo ./pop --ram 8 --max-disk 500 --cache-dir /data --pubKey <KEY> --enable-80-4
 nano ~/node_info.json
 ```
 
-### 🔍 Monitor your Node Status & Points
+### 🔍 Monitor your Node Status
 ```
 ./pop --status
 ```
