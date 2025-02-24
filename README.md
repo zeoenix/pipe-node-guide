@@ -41,6 +41,9 @@ sudo ./pop --ram 8 --max-disk 500 --cache-dir /data --pubKey <KEY>
 ```
 # OR (Recommended Phantom Wallet or ANY SOL Wallet)
 ```
+```
+Use this commnd only if your 8003 PORT is disable or got any error while last cmmnd (Optional)
+```
 sudo ./pop --ram 8 --max-disk 500 --cache-dir /data --pubKey <KEY> --enable-80-443
 ```
 **🔔 Important Note:** Replace your `ram`, `disk`, & `pubkey` with your actual information. Retrieve the public key from your Solana wallet (e.g., Phantom, Solflare, Backpack, etc.)
