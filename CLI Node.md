@@ -1,4 +1,4 @@
-# CLI Node Run Full Guide (PC)
+# PIPE CLI Node In Depth Guide
 
 ### Offical Docs by Pipe Network - https://docs.pipe.network/devnet-2
 
