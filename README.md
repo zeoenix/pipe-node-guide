@@ -1,4 +1,4 @@
-```
+
 # 🎛 PIPE CLI Node In-Depth Guide
 
 ### 📚 Official Docs by Pipe Network
@@ -8,14 +8,16 @@
 
 ## ⚙️ Dependencies for WINDOWS & LINUX
 ```sh
-sudo apt update
-sudo apt upgrade -y
+sudo apt update && sudo apt upgrade -y
 ```
 
 ## 📥 Download Some Files
 ```
 curl -L -o pop "https://dl.pipecdn.app/v0.2.8/pop"
 
+```
+## For background run
+```
 chmod +x pop
 ```
 
@@ -27,17 +29,18 @@ mkdir download_cache
 ## 📝 Signup Your Account
 ```
 ./pop --signup-by-referral-route 332de39758d724e9
-
+```
 # Generate Your Referral (Optional)
+```
 ./pop --gen-referral-route
 ```
 
 ## 🚀 Start Node
 ```
 sudo ./pop --ram 8 --max-disk 500 --cache-dir /data --pubKey <KEY>
-
+```
 # OR (Recommended Phantom Wallet or ANY SOL Wallet)
-
+```
 sudo ./pop --ram 8 --max-disk 500 --cache-dir /data --pubKey <KEY> --enable-80-443
 ```
 
@@ -53,6 +56,9 @@ nano ~/node_info.json
 ### 🔍 Monitor your Node Status & Points
 ```
 ./pop --status
+```
+### 🔍 Monitor your Node Points
+``` 
 ./pop --points
 ```
 
@@ -77,6 +83,9 @@ sudo ./pop --ram 8 --max-disk 500 --cache-dir /data --pubKey <KEY>
 ### 1️⃣ Upgrade (for Latest Version)
 ```
 curl -L -o pop "https://dl.pipecdn.app/v0.2.8/pop"
+```
+ After that use it
+ ```
 chmod +x pop
 ```
 
