@@ -34,7 +34,7 @@ mkdir download_cache
 5️⃣ Start Node
 ````
 sudo ./pop --ram 8 --max-disk 500 --cache-dir /data --pubKey <KEY>
-```
+
          OR   (Recommended Phantom Wallet or ANY SOL Wallet)
 
 sudo ./pop --ram 8 --max-disk 500 --cache-dir /data --pubKey <KEY>--enable-80-443
